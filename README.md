@@ -21,7 +21,9 @@ Simple Test App using the MetaWeather API
 
 ---
 ## MetaWeather API Examples
-Please note that the MetaWeather API does not require any form of authentication. See the [MetaWeather API documentation](https://www.metaweather.com/api/) for all supported methods and parameters.
+Please note that the MetaWeather API does not require any form of authentication. See the [MetaWeather API documentation](https://www.metaweather.com/api/) for all supported methods and parameters. 
+
+**Important:** the API does not support CORS. You will need to proxy your request via Node using a framework like Express.
 
 ### Search city by query
 
